@@ -1,0 +1,12 @@
+query,command,answer
+how r u|how are you|how are you doing|how r u doing,0,fine|fine thx. you?|it's none of your business!
+fine|fine thx,0,that's good|ok
+shutdown yourself,import sys;sys.exit(),SHUTTING DOWN!
+what time is it?|time now,from datetime import datetime;print(datetime.now()),Calculating
+open ipython,from os import system;system("x-terminal-emulator -c -e ipython3"),ipython running!
+open program,import os;x=input("Which program?");os.system("x-terminal-emulator -c -e "+x),Ok
+what is your name,0,"My name is Robin, sir!"
+can i add a command,from funcs import *;add_function('robin_answers.csv'),OK!
+what is your purpose?,0,i dont know yet!
+hi,0,Welcome master!|Hi master|Hello dude
+how was your day?,0,fine|good|bad|by
